@@ -1,0 +1,30 @@
+    1  clear
+    2  got log
+    3  git log
+    4  git log --pretty=oneline
+    5  git log --pretty=oneline
+    6  git log --since=4.hours
+    7  git log --since=2.hours
+    8  git log --since=1.hours
+    9  git log --since=2.hours
+   10  git log --author="Oscar Flores"
+   11  git log --author="Oscar"
+   12  touch teste
+   13  git add teste
+   14  git status
+   15  git commit -m "Commit teste"
+   16  git log
+   17  git reset --soft HEAD˜
+   18  git reset --softHEAD˜
+   19  git status
+   20  git log
+   21  git reset --soft HEAD~
+   22  git log
+   23  git status
+   24  git commit -m "Commit teste"
+   25  git log
+   26  git reset --hard HEAD~
+   27  git log
+   28  git status
+   29  git log --pretty=oneline
+   30  history > Aula_4.txt
